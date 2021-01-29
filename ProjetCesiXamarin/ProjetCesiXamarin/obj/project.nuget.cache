@@ -1,14 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "iKs7ItGMrFNPqujGc7j/lwodP5VyBqIb4RIFwjQEzsJF1xeLPurV+jZePaufnVbHuA42ABYp01FqJzd0E6tcXw==",
+  "dgSpecHash": "hBK0oe82IEzIuCkX9XiMu2Sd1wo+zCSCWZBlWQoFQkvDwkkiCVBMvzx4LgQWJ7LzPEMeyadVqmFYj9JB3iDP1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\jonat\\source\\repos\\ProjetCesiXamarin\\ProjetCesiXamarin\\ProjetCesiXamarin\\ProjetCesiXamarin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jonat\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jonat\\.nuget\\packages\\mvvmlight\\5.4.1.1\\mvvmlight.5.4.1.1.nupkg.sha512",
+    "C:\\Users\\jonat\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\jonat\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'MvvmLightLibs 5.4.1.1' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet '.NETStandard,Version=v2.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "MvvmLightLibs",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }
