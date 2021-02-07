@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "CommonServiceLocator/2.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -94,6 +103,29 @@
     }
   },
   "libraries": {
+    "CommonServiceLocator/2.0.6": {
+      "sha512": "cIVBcA+z8B9oyM67/6mVsJ9PIswFXqREz6nHdngaA7M56su0kOlqlfDHrhYOBB/vAZU466WOWTJCzrVEWrYUvQ==",
+      "type": "package",
+      "path": "commonservicelocator/2.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "commonservicelocator.2.0.6.nupkg.sha512",
+        "commonservicelocator.nuspec",
+        "lib/net40/CommonServiceLocator.dll",
+        "lib/net45/CommonServiceLocator.dll",
+        "lib/net46/CommonServiceLocator.dll",
+        "lib/net47/CommonServiceLocator.dll",
+        "lib/net48/CommonServiceLocator.dll",
+        "lib/net5.0/CommonServiceLocator.dll",
+        "lib/netcoreapp1.0/CommonServiceLocator.dll",
+        "lib/netcoreapp2.0/CommonServiceLocator.dll",
+        "lib/netcoreapp3.0/CommonServiceLocator.dll",
+        "lib/netstandard1.0/CommonServiceLocator.dll",
+        "lib/netstandard2.0/CommonServiceLocator.dll",
+        "lib/netstandard2.1/CommonServiceLocator.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -818,6 +850,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "CommonServiceLocator >= 2.0.6",
       "MvvmLight >= 5.4.1.1",
       "MvvmLightLibs >= 5.4.1.1",
       "NETStandard.Library >= 2.0.3",
@@ -870,6 +903,10 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
+          "CommonServiceLocator": {
+            "target": "Package",
+            "version": "[2.0.6, )"
+          },
           "MvvmLight": {
             "target": "Package",
             "version": "[5.4.1.1, )"

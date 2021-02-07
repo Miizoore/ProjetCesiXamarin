@@ -2,6 +2,7 @@
 using GalaSoft.MvvmLight.Views;
 using ProjetCesiXamarin.Pages;
 using ProjetCesiXamarin.Services;
+using ProjetCesiXamarin.ViewModels;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -16,14 +17,24 @@ namespace ProjetCesiXamarin
 
             NavigationService navigationService = new NavigationService();
 
-            navigationService.Configure("Inscription", typeof(Connection));
-            navigationService.Configure("Home", typeof(Inscription));
+            navigationService.Configure("Home", typeof(Connection));
+            navigationService.Configure("Inscription", typeof(Inscription));
 
             SimpleIoc.Default.Register<INavigationService>(() => navigationService);
 
             var firstPage = new NavigationPage(new Connection());
             navigationService.Initialize(firstPage);
             MainPage = firstPage;
+        }
+
+        private static ViewModelLocator _locator;
+
+        public static ViewModelLocator Locator
+        {
+            get
+            {
+                return _locator ?? (_locator = new ViewModelLocator());
+            }
         }
 
         protected override void OnStart()
