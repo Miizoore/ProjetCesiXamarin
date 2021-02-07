@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ProjetCesiXamarin.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Connection : ContentPage
+    public partial class Inscription : ContentPage
     {
-        public Connection()
+        public Inscription()
         {
             InitializeComponent();
         }

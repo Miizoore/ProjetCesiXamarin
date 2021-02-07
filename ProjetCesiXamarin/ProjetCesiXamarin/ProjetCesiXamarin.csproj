@@ -22,11 +22,13 @@
     <Folder Include="Asset\image\" />
     <Folder Include="Models\" />
     <Folder Include="ViewModels\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="Pages\Connection.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\Inscription.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
