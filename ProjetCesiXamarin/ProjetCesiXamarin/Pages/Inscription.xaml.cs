@@ -15,6 +15,7 @@ namespace ProjetCesiXamarin.Pages
         public Inscription()
         {
             InitializeComponent();
+            BindingContext = App.Locator.InscriptionViewModel;
         }
     }
 }

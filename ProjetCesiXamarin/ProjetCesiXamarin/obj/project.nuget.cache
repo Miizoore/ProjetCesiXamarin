@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "s9YvigynI013fDkwJITDqbV8wsY+aXk/9GrcNWF0Kwcq20QIsu+SGxibRC0eE1BU1WUsTqd9nd3xCY97URQunQ==",
+  "dgSpecHash": "FWT/JScA551MmRw1aSkshFy7MyXVQ9fkUwQRVLebgVSKNdTywlPeYIE9Mhoe48hgpGshsqIFX9Es9ncCc4G25A==",
   "success": true,
   "projectFilePath": "C:\\Users\\jonat\\source\\repos\\ProjetCesiXamarin\\ProjetCesiXamarin\\ProjetCesiXamarin\\ProjetCesiXamarin.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jonat\\.nuget\\packages\\commonservicelocator\\2.0.6\\commonservicelocator.2.0.6.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\mvvmlight\\5.4.1.1\\mvvmlight.5.4.1.1.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
